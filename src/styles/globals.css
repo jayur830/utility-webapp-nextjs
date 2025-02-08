@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.markdown {
+  * {
+    line-height: 1.5;
+    letter-spacing: -0.5;
+  }
+}

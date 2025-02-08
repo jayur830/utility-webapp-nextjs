@@ -1,0 +1,38 @@
+{
+  "name": "utility-webapp-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^6.4.3",
+    "next": "15.1.6",
+    "openai": "^4.83.0",
+    "pdfjs-dist": "^4.10.38",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@stylistic/eslint-plugin": "^3.0.1",
+    "@stylistic/eslint-plugin-jsx": "^3.1.0",
+    "@types/node": "^20",
+    "@types/pdfjs-dist": "^2.10.378",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "typescript": "^5",
+    "typescript-eslint": "^8.23.0"
+  }
+}
